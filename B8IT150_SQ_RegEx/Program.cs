@@ -49,6 +49,10 @@ namespace B8IT150_SQ_RegEx
                                 Console.WriteLine($"Match at {match.Index}");
                                 Console.WriteLine($"Line: {line}");
                             }
+                            else
+                            {
+                                Console.WriteLine("No match found.");
+                            }
                         }
                     }
                 }
@@ -56,11 +60,15 @@ namespace B8IT150_SQ_RegEx
                 {
                     Console.WriteLine("The file does not exist at the path provided.");
                 }
+                catch (UnauthorizedAccessException e)
+                {
+                    Console.WriteLine("The application is unable to read the file at this path.");
+                }
 
-                Console.WriteLine("Press any key to continue or 'N' to exit.");
-                string something = Console.ReadLine();
+                Console.WriteLine("Press any key followed by 'Enter' to continue or 'N' to exit.");
+                string input = Console.ReadLine();
 
-                if (something == "N")
+                if (input == "N")
                 {
                     cont = false;
                 }
