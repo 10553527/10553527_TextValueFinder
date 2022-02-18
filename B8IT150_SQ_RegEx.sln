@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31702.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "B8IT150_SQ_RegEx", "B8IT150_SQ_RegEx\B8IT150_SQ_RegEx.csproj", "{13B1C4E2-320B-40DE-968E-36818DF343EE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{13B1C4E2-320B-40DE-968E-36818DF343EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13B1C4E2-320B-40DE-968E-36818DF343EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13B1C4E2-320B-40DE-968E-36818DF343EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13B1C4E2-320B-40DE-968E-36818DF343EE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {999C611F-91E9-4818-BA3E-F4EB13DF33C9}
+	EndGlobalSection
+EndGlobal
